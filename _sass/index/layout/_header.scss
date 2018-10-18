@@ -1,0 +1,55 @@
+/* ========= HEADER =========== */
+.title{
+  text-transform: uppercase;
+  font-size: 53px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  height: 73px;
+  margin-bottom: 60px;
+}
+
+.header{
+  background-color: #13274e;
+  position: relative;
+}
+
+.haha{
+  display: none;
+}
+
+.list-of-things:first-child{
+  top: 0px;
+}
+
+.list-of-things{
+  background-color: #296a98;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #1e496a;
+  position: relative;
+  top: -6px;
+}
+
+.title-white{
+  color: #fff;
+  
+}
+
+.title-dark-blue {
+  color: #296a98;
+  font-weight: 100;
+}
+
+.logo-white{
+  width: 54px;
+  height: 54px;
+}
+
+.list-we-do-tb{
+  display: none;
+}

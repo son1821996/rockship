@@ -1,0 +1,85 @@
+
+/* ========== WELCOME ========== */
+.welcome{
+  background-color: $background-color-header;
+  position: relative;
+  height: 1080px;
+  
+}
+
+.title-welcome{
+  font-size: 72px;
+  height: 98px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  transform: translate(0, 100%);
+}
+
+.sub-welcome{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0, 500%);
+}
+
+.title-welcome span{
+  font-weight: 300;
+}
+
+.main-nav{
+  float: right;
+  position: absolute;
+  list-style: none;
+  right: -100px;
+}
+
+ul.main-nav li{
+  display: inline-block;
+}
+
+ul.main-nav li a:link,
+ul.main-nav li a:visited{
+  color: #ffffff;
+  margin-right: 50px;
+  text-transform: uppercase;
+  transition: color .2s;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+ul.main-nav li a:hover{
+  color: #00adee;
+}
+
+.header-logo{
+  width: 123px;
+}
+
+.top-right-img{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bottom-left-img{
+  position: absolute;
+  background-image: url(../img/group-3@2x.png);
+  object-fit: contain;
+  height: 57%;
+  width: 80%;
+  bottom: 0;
+}
+
+.navbar:not(#a){
+  visibility: hidden;
+}
+
+#a{
+  visibility: visible;
+}

@@ -1,0 +1,116 @@
+/* =========== CONTACT US ================ */
+.contact-us {
+  background-color: #13274e;
+}
+
+.title-contact {
+  font-family: RobotoSlab;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #00adee;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-contact__us {
+  color: #ffffff;
+}
+
+.title-contact__sub {
+  font-size: 20px;
+  font-weight: 600;
+  color: #296a98;
+  font-style: italic;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: #d3dfe8;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  margin-top: 7px;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #d1d1d1;
+  display: block;
+  padding-left: 8px;
+}
+
+textarea {
+  margin-top: 7px;
+  width: 100%;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  background-color: #d1d1d1;
+  padding-left: 8px;
+}
+
+textarea::placeholder {
+  padding-left: 8px;
+}
+
+::placeholder {
+  color: #13274e;
+}
+
+.send {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e496a;
+  padding: 5px 60px;
+  background-color: #00adee;
+  transition: color 0.2s;
+  font-family: OpenSans;
+}
+
+.send:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.company-infomation {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.company-infomation__question-title {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: #d3dfe8;
+}
+
+.company-infomation__answer-list {
+  color: #d3dfe8;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.company-infomation__answer-list:hover {
+  color: #00adee;
+}
+
+.company-infomation__answer-list span {
+  margin-left: 5px;
+}
+
+.company-infomation__answer {
+  margin-top: 20px;
+}
+
+/* ================ INDEX REUSE ====================== */

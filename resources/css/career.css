@@ -1,0 +1,175 @@
+/* ================ REUSE =================== */
+.title-career{
+  text-transform: uppercase;
+  font-family: RobotoSlab;
+  font-size: 41px;
+  line-height: 1.1;
+  text-align: center;
+  color: #1e496a;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.title-section{
+  margin-bottom: 50px;
+}
+
+.sub-title-career{
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: #00adee;
+  text-transform: uppercase;
+}
+
+.header-image{
+  background-image: url(../img/illustration-rockship-career-2@3x.png);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+section{
+  padding: 60px 0;
+}
+
+.clear{
+  clear: both;
+}
+
+
+/* ================ LOOKING FOR TEAMMATE ========================= */
+.find-teammate img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.required-job{
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #13274e;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.require-job__detail{
+  font-family: OpenSans;
+  font-size: 14px;
+  text-align: center;
+  color: #13274e;
+}
+
+.find-teammate{
+  margin-bottom: 50px;
+}
+
+/* ================ WHY ROCKSHIP WORTH IT ========================= */
+.why-rockship{
+  background-color: #00adee;
+  padding: 50px;
+  position: relative;
+}
+
+img.worth-header-image{
+  position: relative;
+  top: -115px;
+}
+
+.autowide{
+  margin-top: -40px;
+}
+
+.why-rockship img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.worth-title{
+  font-family: Rockwell;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.worth-detail{
+  font-family: OpenSans;
+  font-size: 16px;
+  text-align: center;
+  color: #13274e;
+}
+
+
+/* ================ GETTING ON BOARD ========================= */
+.recruit{
+  background-color: #d3dfe8;
+  padding: 40px;
+}
+
+.about-job{
+  background-color: #ffffff;
+  padding: 10px 10px;
+  margin-left: 20px;
+}
+
+img.job-logo{
+  padding-top: 100px;
+}
+
+.about-job__position{
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #13274e;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+#about-job__location{
+  text-transform: capitalize;
+}
+
+.about-job__detail{
+  text-align: center;
+}
+
+.about-job__salary{
+  color: #00adee;
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: .9rem;
+}
+h1 {
+  text-align: center;
+}
+
+.about-job__view-all{
+  margin-top: 30px;
+  width: 100%;
+  background-color: #13274e;
+  padding: 3px;
+}
+
+.about-job__view-all a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: OpenSans;
+}
+
+.about-job__view-all a:hover{
+  text-decoration: none;
+}
+

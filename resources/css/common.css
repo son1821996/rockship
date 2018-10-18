@@ -1,0 +1,170 @@
+/* ========== HEADER ==================== */
+header {
+  background-color: #13192d;
+  height: 80px;
+}
+
+.title-white {
+  color: #fff;
+}
+
+.title-dark-blue {
+  color: #296a98;
+  font-weight: 100;
+}
+
+.navigation__logo {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.navbar {
+  display: none;
+}
+.logo{
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+nav {
+  float: right;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.navigation {
+  background-color: #13192d;
+}
+
+.navigation__logo {
+  width: 100px;
+  height: 45px;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navigation__link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color .2s;
+  font-family: OpenSans;
+  font-size: 14px;
+}
+
+.navigation__link:hover {
+  color: #00adee;
+  text-decoration: none;
+}
+
+
+
+
+/* ================= FOOTER ===================== */
+footer {
+  background-color: #13192d;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  margin-bottom: px;
+}
+
+.footer-section{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #296a98;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.contact__us {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2px 5px;
+  border: 1px solid #ffffff;
+  width: 80%;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.contact__us a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.contact__brand {
+  margin-left: 8px;
+}
+
+.contact__subject {
+  font-size: 16px;
+  color: #00adee;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact__detail {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.find-us{
+  padding-bottom: 20px;
+  border-bottom: solid 1px #296a98;
+}
+
+.credit{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.year{
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 768px){
+  .contact__detail {
+    font-size: 7px;
+  }
+
+  .contact__us {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .contact__us a {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  footer .container {
+    display: block;
+    text-align: center;
+    width: 70%;
+  }
+
+  .contact__detail {
+    font-size: 14px;
+  }
+
+  .contact__us a {
+    font-size: 14px;
+  }
+}

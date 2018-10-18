@@ -1,0 +1,49 @@
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+}
+
+.slider img {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  margin: auto;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+
+.multiple-items {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  padding: 0 20px 20px;
+  margin: 40px auto;
+  width: 600px;
+}
+
+.button {
+  background: #3498db;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 41%;
+}
+
+.buttons .button {
+  background: #FFF;
+  color: #3498db;
+  float: left;
+  margin: 5px;
+}

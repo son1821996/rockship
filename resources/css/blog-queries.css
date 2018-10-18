@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px){
+  /* ============== FOOTER ==================== */
+  .contact__detail{
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  footer .container {
+    display: block;
+    text-align: center;
+    width: 70%;
+  }
+
+  .contact__subject{
+    font-size: 16px;
+  }
+
+  .contact__detail{
+    font-size: 14px;
+  }
+
+  .contact__us{
+    font-size: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brand-logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ==================== HEADER ======================= */
+  .navigation__logo{
+    width: 80px;
+    height: 40px;
+  }
+
+  .navbar-burger {
+    top: -80px;
+    background-color: #296a98;
+    width: 24px;
+    height: 26px;
+    ;
+  }
+
+  .navbar-burger span{
+    border: 1px solid #ffffff;
+  }
+
+  .navbar:not(#a) {
+    display: block;
+    visibility: hidden;
+    top: -100px;
+    right: 30px;
+  }
+
+  #a {
+    visibility: visible;
+    top: 26px;
+  }
+
+  #navbarBasicExample {
+    visibility: visible;
+    width: 20%;
+    float: right;
+    position: absolute;
+    z-index: 1000;
+    left: -34px;
+    top: 50px;
+    text-align: center;
+  }
+
+  #navbarBasicExample.navbar-menu.is-active{
+    width: 100px;
+  }
+
+  .navbar-item, .navbar-link{
+    padding: 1px 1px;
+    font-size: 12px;
+  }
+}

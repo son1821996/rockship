@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+  font-family: "OpenSans", sans-serif;
+}
+
+body{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "OpenSans", sans-serif;
+}
+
+.title-blog {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  padding: 60px;
+  
+}
+
+.title-dark-blue {
+  color: #296a98;
+  font-weight: 300; 
+}
+
+/* ================= HEADER NEWS ===================== */
+.header-news{
+  background-image: url('../img/blog/header-image.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.square{
+  height: 100%;
+  width: 40%;
+  background-color: #13274e;
+  opacity: 0.9;
+  float: right;
+  right: 0;
+  position: relative;
+}
+
+.top-news{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.top-news__inform{
+  color: #d3dfe8;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.top-news__title{
+  font-family: RobotoSlab;
+  font-size: 32px;
+  line-height: 1.13;
+  font-weight: bold;
+  color: #d3dfe8;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hightlight-title{
+  color: #00adee;
+}
+
+.top-news__short-article{
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.25;
+  color: #98bbd5;
+}
+
+a.link-learn-more{
+  color: #00adee;
+  font-size: 14px;
+}
+
+a.link-learn-more:hover {
+  color: coral;
+  transition: color 0.2s;
+  text-decoration: none;
+ }
+
+a.link-learn-more:after {
+  content: "\00bb";
+  font-size: 150%; 
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 5px;
+} 
+
+
+/* ==================== POPULAR POST ================== */
+.popular-post{
+  background-color: #d3dfe8;
+  padding: 56px 0;
+}
+
+.post__title{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 16px;
+  font-family: RobotoSlab;
+  font-size: 18px;
+  color: #13274e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.post__popular-item{
+  background-color: #ffffff;
+  border: solid 1px #d3dfe8;
+  padding: 10px 10px;
+  margin-left: 20px;
+}
+
+.post__new-item img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.post__short-view{
+  font-size: 14px;
+  color: #13274e;
+}
+
+p.post__request-consultation{
+  background-color: #d3dfe8;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.post__request-consultation a{
+  color: #296a98;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a.post__request-link{
+  padding-bottom: 10px;
+}
+
+a.post__request-link:after{
+  content: "\00bb";
+  font-size: 180%; 
+  margin-left: 10px;
+}
+
+a.post__request-link:hover{
+  text-decoration: none;
+}
+

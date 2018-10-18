@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first Bulma website</title>
+  <link rel="stylesheet" href="resources/css/main.css">
+  <link rel="stylesheet" href="resources/css/mystyle.css">
+  <link rel="stylesheet" href="resources/css/contact.css">
+  <link rel="stylesheet" href="resources/css/contact-queries.css">
+  <link rel="stylesheet" href="resources/css/index-queries.css">
+  <link rel="stylesheet" href="resources/css/common.css">
+  <link rel="stylesheet" href="vendors/css/common.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="column">
+          <img src="resources/img/footer-logo.png" class="navigation__logo" alt="header-logo">
+    
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+              <li class="navigation__item"><a href="blog.html" class="navigation__link">Blog</a></li>
+              <li class="navigation__item"><a href="career.html" class="navigation__link">Career</a></li>
+              <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    
+    
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+    
+    
+            <a role="button" class="navbar-burger" id="a" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+    
+          <div id="navbarBasicExample" class="navbar-menu">
+            <a href="https://www.google.com/" class="navbar-item">
+              Home
+            </a>
+    
+            <a href="#" class="navbar-item">
+              Blog
+            </a>
+    
+            <a href="#" class="navbar-item">
+              Career
+            </a>
+    
+            <a href="#" class="navbar-item">
+              Contact
+            </a>
+          </div>
+          </div>
+          </div>
+          </div>
+      </header>
+
+  
+
+
+  <section class="contact-us">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-2">
+          </div>
+          <div class="column">
+            <h2 class="title-contact">Contact <span class="title-contact__us">Us</span></h2>
+            <p class="title-contact__sub">From first sight to long lasting relationship</p>
+            <form class="contact-form">
+              <div class="columns">
+                <div class="column">
+                  <label for="name">Name:</label>
+                  <input type="text" placeholder="Name" autocomplete="off" required>
+                </div>
+
+              </div>
+              <div class="columns half-input">
+                <div class="column">
+                  <label for="email">Email</label>
+                  <input type="email" placeholder="Email" autocomplete="off" required>
+                </div>
+                <div class="column">
+                  <label for="phone">Contact Number</label>
+                  <input type="text" placeholder="Phone Number" autocomplete="off" required>
+                </div>
+
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <label for="conpany-name">Company Name</label>
+                  <input type="text" placeholder="Company Name" autocomplete="off" required>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="column is-2">
+
+          </div>
+        </div>
+
+        <div class="columns company-infomation">
+          <div class="column is-2">
+
+          </div>
+          <div class="column">
+            <div class="columns is-mobile">
+              <div class="column">
+                <p class="company-infomation__question-title">Company Size</p>
+                <ul class="company-infomation__answer">
+                  <li class="company-infomation__answer-list"><input type="radio" name="company-size"> <span>Single
+                      founder</span></li>
+                  <li class="company-infomation__answer-list"><input type="radio" name="company-size"> <span>3 - 10
+                      engineers</span> </li>
+                  <li class="company-infomation__answer-list"><input type="radio" name="company-size"> <span>10 - 50
+                      engineers</span> </li>
+                  <li class="company-infomation__answer-list"><input type="radio" name="company-size"> <span>> 50
+                      engineers</span> </li>
+                </ul>
+              </div>
+              <div class="column">
+                <p class="company-infomation__question-title">Company Location</p>
+                <ul class="company-infomation__answer">
+                  <li class="company-infomation__answer-list"><input type="checkbox"> <span>US</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox"> <span>Europe</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox"> <span>East Asia</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox"> <span> Other</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column is-2">
+
+          </div>
+        </div>
+
+        <div class="columns company-infomation">
+          <div class="column is-2">
+
+          </div>
+
+          <div class="column">
+            <div class="columns">
+              <div class="column">
+                <p class="company-infomation__question-title">What areas you are interested in?</p>
+                <ul class="company-infomation__answer">
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>Live
+                      Streaming</span></li>
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>VoIP
+                      routing app</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>Cryptocurrency
+                      Exchange</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>Facility
+                      Booking System</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>Payment
+                      Integration</span> </li>
+                  <li class="company-infomation__answer-list"><input type="checkbox" name="company-size"> <span>Other</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-2">
+
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-2">
+
+          </div>
+
+          <div class="column">
+            <div class="columns">
+              <div class="column">
+                <label for="description">Project Description</label>
+                <textarea placeholder="Description" autocomplete="off"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-2">
+
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-2">
+
+          </div>
+          <div class="column">
+            <a href="#" class="send">Send</a>
+          </div>
+
+          <div class="column is-2">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="hero-body footer-section">
+      <div class="container">
+        <div class="columns">
+          <h1 class="footer-title title-white">
+            Contact <span class="title-dark-blue">us</span>
+          </h1>
+        </div>
+
+        <div class="columns contact">
+
+          <div class="column is-2">
+            <img src="resources/img/footer-logo.png" class="footer-logo" alt="footer-logo">
+          </div>
+
+          <div class="column sing">
+            <p class="contact__subject">Singapore</p>
+            <p class="contact__detail">71 Ayer Rajah Cresent
+              <br>#06-11/12 ‘Block 71’, Singapore 139951</p>
+          </div>
+
+          <div class="column">
+            <p class="contact__subject">Vietnam</p>
+            <p class="contact__detail">Park 6B - Vinhome Central Park, 208 Nguyen Huu Canh, Ward 22, Binh Thanh
+              District, Ho Chi Minh City</p>
+          </div>
+
+          <div class="column">
+            <p class="contact__subject">Partner</p>
+            <p class="contact__detail">We can build great things together</p>
+            <p class="contact__us"><a href="#">Contact us</a></p>
+          </div>
+
+          <div class="column">
+            <p class="contact__subject">Careers</p>
+            <p class="contact__detail">Join our ship & explore unlimited possibilities!</p>
+            <p class="contact__us"><a href="#">Contact HR</a></p>
+          </div>
+
+          <div class="column">
+            <p class="contact__subject">Press</p>
+            <p class="contact__detail">Want to write about us on the news?</p>
+            <p class="contact__us"><a href="#">Email the gang</a></p>
+          </div>
+
+        </div>
+
+        <div class="columns contact">
+          <div class="column is-3">
+
+          </div>
+
+          <div class="column is-6">
+            <div class="columns">
+              <div class="column">
+                <h1 class="footer-title title-white">
+                  Find <span class="title-dark-blue">us</span> on
+                </h1>
+              </div>
+              <div class="column">
+                <div class="brand-logo">
+                  <a href="#"><img src="resources/img/Brands/facebook-f/Defaut.png" class="contact__brand"></a>
+                  <a href="#"><img src="resources/img/Brands/google/Defaut.png" class="contact__brand"></a>
+                  <a href="#"><img src="resources/img/Brands/Linkedin/Defaut.png" class="contact__brand"></a>
+                  <a href="#"><img src="resources/img/Brands/facebook-f/Defaut.png" class="contact__brand"></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="credit">
+        &copy; Rockship <span class="year">2018</span> 
+    </div>
+    
+  </footer>
+
+
+  <script src="resources/lib/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="resources/lib/jquery.jdSlider-latest.min.js"></script>
+  <script>
+    window.onresize = function () {
+      if (window.innerWidth > 480) {
+        // add/remove class input contact
+        $('.half-input').addClass('is-mobile');
+        // Add/Remove class footer
+        $('.contact').addClass('is-mobile');
+      } else if (window.innerWidth <= 480) {
+        // add/remove class input contact
+        $('.half-input').removeClass('is-mobile');
+        $('.half-input').addClass('is-desktop');
+        // Add/Remove class footer
+        $('.contact').removeClass('is-mobile');
+        $('.contact').addClass('is-desktop');
+      }
+    }
+  </script>
+</body>
+
+</html>
