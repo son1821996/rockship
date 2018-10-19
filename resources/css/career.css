@@ -15,7 +15,7 @@
 }
 
 .sub-title-career{
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 600;
   font-style: italic;
@@ -58,7 +58,7 @@ section{
 }
 
 .require-job__detail{
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: center;
   color: #13274e;
@@ -101,7 +101,7 @@ img.worth-header-image{
 }
 
 .worth-detail{
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   color: #13274e;
@@ -166,7 +166,7 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about-job__view-all a:hover{

@@ -75,7 +75,7 @@ textarea::placeholder {
   padding: 5px 60px;
   background-color: #00adee;
   transition: color 0.2s;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .send:hover {
