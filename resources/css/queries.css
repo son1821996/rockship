@@ -3,8 +3,8 @@
     display: none;
   }
 
-  .contact__us {
-    padding: 0 0;
+  .bottom-left-img{
+    width: 100%;
   }
 
   .list-done li img.logo-project-copy{
@@ -38,6 +38,7 @@
 @media only screen and (max-width: 992px) {
   .bottom-left-img {
     width: 102%;
+    background-position: center;
    }
 
   .grid{
@@ -222,7 +223,7 @@
 
   blockquote:before {
     position: absolute;
-    top: -30px;
+    top: -65px;
     left: -30px;
   }
 

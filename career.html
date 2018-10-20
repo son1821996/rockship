@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My first Bulma website</title>
   <link rel="stylesheet" href="resources/css/main.css">
-  <link rel="stylesheet" href="resources/css/queries.css">
+  <link rel="stylesheet" href="resources/css/contact-queries.css">
   <link rel="stylesheet" href="resources/css/career.css">
   <link rel="stylesheet" href="resources/css/career-queries.css">
-  <link rel="stylesheet" href="vendors/css/common.min.css">
   <link rel="stylesheet" href="resources/css/common.css">
+  <link rel="stylesheet" href="vendors/css/common.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
   <link rel="stylesheet" href="vendors/css/slick-theme.css">
@@ -29,7 +29,7 @@
         <ul class="navigation__list">
           <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
           <li class="navigation__item"><a href="blog.html" class="navigation__link">Blog</a></li>
-          <li class="navigation__item"><a href="index.html" class="navigation__link">Career</a></li>
+          <li class="navigation__item"><a href="career.html" class="navigation__link">Career</a></li>
           <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
         </ul>
       </nav>
@@ -64,10 +64,9 @@
           Contact
         </a>
       </div>
-    </nav>
-    </div>
-    </div>
-    </div>
+      </div>
+      </div>
+      </div>
   </header>
 
   <section class="header-image">
@@ -327,7 +326,8 @@
       }
     }
     //------------------------------ SLIDER
-    $('.multiple-items').slick({
+    $(document).ready(function(){
+      $('.multiple-items').slick({
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 3,
@@ -357,7 +357,9 @@
         // settings: "unslick"
         // instead of a settings object
       ]
+      });
     });
+    
   </script>
 </body>
 

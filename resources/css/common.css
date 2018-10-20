@@ -98,11 +98,28 @@ footer {
   font-size: 10px;
   font-weight: 300;
   margin-top: 15px;
+  transition: all .2s;
 }
 
 .contact__us a {
   color: #ffffff;
   font-size: 14px;
+}
+
+.contact__us:hover,
+.contact__us:active {
+  border: 1px solid #1e496a;
+}
+
+.contact__us:link,
+.contact__us:visited{
+  background-color: #296a98;
+}
+
+.contact__us a:hover,
+.contact__us a:active{
+  color: #296a98;
+  text-decoration: none;
 }
 
 .contact__brand {

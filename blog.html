@@ -437,7 +437,8 @@
     }
 
     //------------------------------ SLIDER
-    $('.multiple-items').slick({
+    $(document).ready(function(){
+      $('.multiple-items').slick({
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 3,
@@ -450,7 +451,7 @@
           }
         },
         {
-          breakpoint: 721,
+          breakpoint: 600,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
@@ -467,7 +468,10 @@
         // settings: "unslick"
         // instead of a settings object
       ]
+      });
     });
+      
+    
   </script>
 </body>
 

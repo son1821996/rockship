@@ -6,6 +6,7 @@ html {
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  overflow: hidden;
 }
 
 .title {
@@ -99,17 +100,43 @@ a.link-learn-more:after {
   display: none;
 }
 
-.grid {
-  column-gap: 1em;
+/* The Masonry Container */
+.masonry {
+  margin: 1.5em auto;
+  max-width: 1440px;
+  column-gap: 1.5em;
 }
 
+/* The Masonry Brick */
 .item {
-  /* Masonry bricks or child elements */
-  background-color: #ffffff;
-  display: inline-block;
-  margin: 0 0 1em;
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+}
+
+.item img.done{
   width: 100%;
-  margin-left: 20px;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 769px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+  .masonry {
+    column-count: 2;
+  }
 }
 
 /* ============ TECHNOLOGIES ============ */
@@ -214,6 +241,7 @@ a.ns-link:hover {
   line-height: 1.5;
 }
 
+
 .procedure__checkout:after {
   content: "\00bb";
   font-size: 150%;
@@ -306,7 +334,7 @@ blockquote:before {
   display: block;
   position: absolute;
   top: -50px;
-  left: -7%;
+  left: -55px;
   font-size: 600%;
   color: #296a98;
 }
@@ -356,7 +384,9 @@ blockquote:before {
   color: #1e496a;
   position: relative;
   top: -6px;
+  transition: all 3s;
 }
+
 
 .title-white {
   color: #fff;
@@ -497,11 +527,34 @@ footer {
   font-size: 10px;
   font-weight: 300;
   margin-top: 15px;
+  transition: border .2s; 
+  
+}
+
+.contact__us:hover{
+  border: 1px solid #1e496a;
 }
 
 .contact__us a {
   color: #ffffff;
   font-size: 14px;
+  transition: all .2s;
+}
+
+.contact__us:hover,
+.contact__us:active {
+  border: 1px solid #1e496a;
+}
+
+.contact__us:link,
+.contact__us:visited{
+  background-color: #296a98;
+}
+
+.contact__us a:hover,
+.contact__us a:active{
+  color: #296a98;
+  text-decoration: none;
 }
 
 .contact__brand {
@@ -530,8 +583,10 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
+  padding: 20px;
 }
 
 .year {
   font-weight: 300;
 }
+
