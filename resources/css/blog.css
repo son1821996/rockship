@@ -121,6 +121,10 @@ a.link-learn-more:after {
   margin-left: 20px;
 }
 
+.post__new-item{
+  margin-left: 20px;
+}
+
 .post__new-item img{
   display: block;
   margin-left: auto;
@@ -129,6 +133,7 @@ a.link-learn-more:after {
 }
 
 .post__short-view{
+  margin-top: 30px;
   font-size: 14px;
   color: #13274e;
 }

@@ -23,7 +23,7 @@
 <body>
   <header>
     <div class="column">
-      <img src="resources/img/footer-logo.png" class="navigation__logo" alt="header-logo">
+      <a href="index.html"><img src="resources/img/footer-logo.png" class="navigation__logo" alt="header-logo"></a>
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
@@ -48,19 +48,19 @@
       </div>
 
       <div id="navbarBasicExample" class="navbar-menu">
-        <a href="https://www.google.com/" class="navbar-item">
+        <a href="index.html" class="navbar-item">
           Home
         </a>
 
-        <a href="#" class="navbar-item">
+        <a href="blog.html" class="navbar-item">
           Blog
         </a>
 
-        <a href="#" class="navbar-item">
+        <a href="career.html" class="navbar-item">
           Career
         </a>
 
-        <a href="#" class="navbar-item">
+        <a href="contact.html" class="navbar-item">
           Contact
         </a>
       </div>
@@ -391,9 +391,9 @@
 
           </div>
 
-          <div class="column is-6">
-            <div class="columns">
-              <div class="column">
+          <div class="column">
+            <div class="columns find-us">
+              <div class="column is-4">
                 <h1 class="footer-title title-white">
                   Find <span class="title-dark-blue">us</span> on
                 </h1>
@@ -414,9 +414,9 @@
       </div>
     </div>
     <div class="credit">
-      &copy; Rockship <span class="year">2018</span>
+        &copy; Rockship <span class="year">2018</span> 
     </div>
-
+    
   </footer>
 
   <script src="resources/lib/main.js"></script>
@@ -429,10 +429,17 @@
   <script>
     window.onresize = function () {
       if (window.innerWidth > 480) {
+        // FOOTER
         $('.contact').addClass('is-mobile');
+        
+        $('.find-us').addClass('is-mobile');
       } else if (window.innerWidth <= 480) {
+        // FOOTER
         $('.contact').removeClass('is-mobile');
         $('.contact').addClass('is-desktop');
+        
+        $('.find-us').remove('is-mobile');
+        $('.find-us').addClass('is-desktop');
       }
     }
 

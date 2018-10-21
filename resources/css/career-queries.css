@@ -47,7 +47,7 @@
 }
 
 /* 3 columns: 768px */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .autowide .module {
 		width: 31.623931623931625%;
 	}
