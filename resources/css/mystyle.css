@@ -372,7 +372,7 @@ blockquote:before {
 header {
   background-color: #13192d;
   position: relative;
-  height: 1080px;
+  height: 1280px;
 }
 
 .title-welcome {
@@ -385,6 +385,8 @@ header {
   transform: translate(0, 250%);
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
+  position: relative;
+  z-index: 10;
 }
 
 .sub-welcome {
@@ -397,6 +399,8 @@ header {
   margin-right: auto;
   transform: translate(0, 650%);
   font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 10;
 }
 
 .title-welcome span {
@@ -446,10 +450,9 @@ ul.main-nav li a:hover {
   position: absolute;
   background-image: url(../img/group-4.png);
   object-fit: contain;
-  height: 56%;
-  width: 90%;
+  height: 54%;
+  width: 100%;
   bottom: 0;
-  z-index: 999;
   background-position: center;
 }
 

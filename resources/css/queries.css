@@ -54,7 +54,18 @@
     text-align: center;
   }
 
-  
+  /* ============ HEADER ============== */
+  .title-welcome{
+    transform: translate(0px, 350%);
+  }
+
+  .sub-welcome{
+    transform: translate(0, 900%);
+  }
+
+  .top-right-img{
+    height: 40%;
+  }
   /*  FLIPBOX */
 .flip-box-front img{
     height: 320px;
@@ -69,30 +80,22 @@
     font-size: 12.5px;
   }
 
-
-
-
-  /* =============== TESTIMONIAL =============== */
-
 }
 
 @media only screen and (max-width: 992px) {
+  header{
+    height: 1000px;
+  }
+  .sub-welcome{
+    transform: translate(0, 1550%);
+  }
   .bottom-left-img {
     width: 102%;
     background-position: center;
    }
-
-  .grid{
-    column-count: 3;
-  }
-
-  .title-welcome{
-    transform: translate(0px, 350%);
-  }
-
   
   .sub-welcome {
-    transform: translate(0, 1050%);
+    transform: translate(0, 1550%);
     font-size: 10px;
     line-height: 1.2;
     color: #d3dfe8;
@@ -116,6 +119,10 @@
 
   .next {
     top: 10%;
+  }
+  /* ========== HEADER ========== */
+  .sub-welcome{
+    transform: translate(0, 850%);
   }
 
   /* ========== HEADER MOBILE ========== */
@@ -330,7 +337,7 @@
   }
 
   .sub-welcome {
-    transform: translate(0, -200%);
+    transform: translate(0, -300%);
     font-size: 10px;
     line-height: 1.2;
     color: #d3dfe8;
