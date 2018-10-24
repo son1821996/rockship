@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
       slideToScroll: 1,
       isLoop: true,
       responsive: [{
-        viewSize: 600,
+        viewSize: 480,
         settings: {
-          slideShow: 2
+          slideShow: 1
         }
       }]
     });
@@ -56,6 +56,33 @@ var viewMore = function () {
   }
 }
 
+/* GRID WHAT WE HAVE DONE */
+function resizeGridItem(item){
+  grid = document.getElementsByClassName("grid")[0];
+  rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+  rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap'));
+  rowSpan = Math.ceil((item.querySelector('.content').getBoundingClientRect().height+rowGap)/(rowHeight+rowGap));
+    item.style.gridRowEnd = "span "+rowSpan;
+}
 
+function resizeAllGridItems(){
+  allItems = document.getElementsByClassName("item");
+  for(x=0;x<allItems.length;x++){
+    resizeGridItem(allItems[x]);
+  }
+}
+
+function resizeInstance(instance){
+	item = instance.elements[0];
+  resizeGridItem(item);
+}
+
+window.onload = resizeAllGridItems();
+window.addEventListener("resize", resizeAllGridItems);
+
+allItems = document.getElementsByClassName("item");
+for(x=0;x<allItems.length;x++){
+  imagesLoaded( allItems[x], resizeInstance);
+}
 
   
