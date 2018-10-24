@@ -15,12 +15,23 @@
   padding: 2%;
   position: relative;
   text-align: center;
-  height: 100%;
+  height: 250px;
 }
 
 .multiple-items {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 768px){
+
+  .multiple-items{
+    width: 80%;
+  }
+
+  .slick-prev{
+    left: -50px;
+  }
 }
 
 .buttons {

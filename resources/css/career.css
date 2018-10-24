@@ -1,7 +1,7 @@
 /* ================ REUSE =================== */
 .title-career{
   text-transform: uppercase;
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 41px;
   line-height: 1.1;
   text-align: center;
@@ -48,7 +48,7 @@ section{
 }
 
 .required-job{
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -120,12 +120,8 @@ img.worth-header-image{
   margin-left: 20px;
 }
 
-img.job-logo{
-  padding-top: 100px;
-}
-
 .about-job__position{
-  font-family: RobotoSlab;
+  font-family: 'Roboto Slab', serif;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -162,14 +158,15 @@ h1 {
   padding: 3px;
 }
 
-.about-job__view-all a{
+.view-all{
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
+  transition: color .2s;
 }
 
-.about-job__view-all a:hover{
+.view-all:hover{
   text-decoration: none;
+  color: #00adee;
 }
-

@@ -1,3 +1,24 @@
+@media only screen and (max-width: 1920px)
+{
+  .flip-box-front img{
+    height: 430px;
+  }
+
+  .flip-box-front, .flip-box-back{
+    height: 430px;
+  }
+
+  .list-of-things{
+    top: 107px;
+  }
+
+  .flip-box-back p:before{
+    margin-right: 2px;
+  }
+}
+
+
+
 @media only screen and (max-width: 1024px) {
   .navbar {
     display: none;
@@ -24,12 +45,32 @@
   }
 
   .list-of-things{
-    font-size: 16px;
+    font-size: 18px;
+    top: -3px;
+    height: 60px;
   }
 
   .brand-logo {
     text-align: center;
   }
+
+  
+  /*  FLIPBOX */
+.flip-box-front img{
+    height: 320px;
+  }
+
+  .flip-box-front, .flip-box-back{
+    height: 320px;
+  }
+
+  .flip-box-back p{
+    padding: 1px 1px;
+    font-size: 12.5px;
+  }
+
+
+
 
   /* =============== TESTIMONIAL =============== */
 
@@ -43,6 +84,19 @@
 
   .grid{
     column-count: 3;
+  }
+
+  .title-welcome{
+    transform: translate(0px, 350%);
+  }
+
+  
+  .sub-welcome {
+    transform: translate(0, 1050%);
+    font-size: 10px;
+    line-height: 1.2;
+    color: #d3dfe8;
+    width: 177px;
   }
 }
 
@@ -58,6 +112,10 @@
 
   .blur{
     width: 25%;
+  }
+
+  .next {
+    top: 10%;
   }
 
   /* ========== HEADER MOBILE ========== */
@@ -81,13 +139,6 @@
     text-align: center;
   }
 
-  .sub-welcome {
-    transform: translate(0, 1050%);
-    font-size: 10px;
-    line-height: 1.2;
-    color: #d3dfe8;
-    width: 177px;
-  }
 
   .top-right-img {
     width: 413px;
@@ -103,19 +154,11 @@
     margin-right: -20px;
   }
 
-  .bottom-left-img {
-    position: absolute;
-    object-fit: contain;
-    background-position: center;
-    height: 50%;
-    width: 102%;
-    bottom: 0;
-  }
-
-
   .list-of-things {
-    font-size: 12px;
+    font-size: 13.5px;
     font-weight: 300;
+    top: -7px;
+    height: 50px;
   }
 
   /* ========= WHAT WE HAVE DONE =========== */
@@ -151,14 +194,28 @@
   #view-more {
     display: none;
   }
+  /*  FLIPBOX */
+  .flip-box-inner{
+    height: 61%;
+  }
+  .flip-box-front img{
+    height: 190px;;
+  }
+  
+  .flip-box-front, .flip-box-back{
+    height: 190px;
+  }
+
+  .flip-box-back p:before{
+    margin-right: 2px;
+    font-size: 100%;
+  }
 
   /* ========= TECHNOLOGY =========== */
-  .technologies__logo {
+  .technologies__list{
     margin-left: auto;
     margin-right: auto;
   }
-
-
   .technologies__list li {
     height: 200px;
     width: 22%;
@@ -208,10 +265,6 @@
     font-size: 30px;
   }
 
-  .procedure__detail {
-    font-size: 18px;
-  }
-
   /* =============== TESTIMONIAL =============== */
   blockquote {
     width: 67%;
@@ -242,25 +295,7 @@
     border-top: 60px solid #d3dfe8;
     border-left: 60px solid transparent;
   }
-
-  /* ============ FOOTER =============== */
-  .contact__detail {
-    font-size: 7px;
-  }
-
-  .contact__us {
-    margin-top: 5px;
-    width: 90%;
-  }
-
-  .contact__us a {
-    font-size: 7px;
-  }
-
-  .footer-logo{
-    width: 300px;
-  }
-
+  
 }
 
 /* Small phones: from 0 to 480px */
@@ -422,21 +457,17 @@
     color: #98bbd5;
     line-height: 1;
   }
-  
-  .grid{
-    column-count: 2;
-  }
-
-  .view-more-s2{
-    display: none;
-  }
 
   .list-of-things{
     display: none;
   }
 
   img.logo-project-copy{
-    display: none;
+    width: 30px;
+  }
+
+  .project-detail{
+    margin-top: -20px;
   }
 
   /* ========= TECHNOLOGY =========== */
@@ -483,28 +514,5 @@
 
   blockquote{
     width: 90%;
-  }
-
-  /* =============== FOOTER =============== */
-  footer .container {
-    display: block;
-    text-align: center;
-    width: 70%;
-  }
-
-  .contact__subject {
-    font-size: 16px;
-  }
-
-  .contact__detail {
-    font-size: 14px;
-  }
-
-  .contact__us a {
-    font-size: 14px;
-  }
-
-  .haha {
-    display: block;
   }
 }
