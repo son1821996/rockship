@@ -10,7 +10,7 @@ body {
 }
 
 /* ========== HEADER ==================== */
-.header-rest-of-pages {
+header {
   background-color: #13192d;
   height: 80px;
 }
@@ -85,7 +85,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   font-weight: 600;
-  margin-bottom: px;
 }
 
 .footer-section{
@@ -94,6 +93,7 @@ footer {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  height: 250px;
 }
 
 .footer-logo {
@@ -132,6 +132,13 @@ footer {
 .contact__us a:active{
   color: #ffffff;
   text-decoration: none;
+}
+
+.find-us{
+  position: absolute;
+  right: -160px;
+  top: 175px;
+  width: 500px;
 }
 
 .brand-logo-list{
@@ -180,6 +187,11 @@ footer {
   background-image: url(../img/Brands/twitter/Focus.png);
 }
 
+.brand-logo{
+  margin-right: 20px;
+  position: relative;
+  top: 3px;
+}
 
 .brand-logo-list:hover .overlay {
   height: 100%;
@@ -225,6 +237,12 @@ footer {
   }
 }
 
+@media only screen and (max-width: 600px){
+  .navigation__item{
+    margin-left: 30px;
+  }
+}
+
 @media only screen and (max-width: 480px){
   footer .container {
     display: block;
@@ -238,6 +256,21 @@ footer {
 
   .contact__us a {
     font-size: 14px;
+  }
+
+  .footer-section{
+    height: auto;
+  }
+
+  .find-us{
+    position: unset;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .find-us{
+    margin-left: -30px;
   }
 }
 

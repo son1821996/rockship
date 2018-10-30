@@ -9,7 +9,6 @@
 
 .slider img {
   background: #fff;
-  color: #3498db;
   font-size: 36px;
   margin: auto;
   padding: 2%;
@@ -57,4 +56,20 @@
   color: #3498db;
   float: left;
   margin: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .slick-prev{
+    left: -37px;
+  }
+  
+  .slick-next{
+    right: -25px;
+  }
+
+  .slider img{
+    height: 140px;
+  }
 }

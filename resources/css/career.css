@@ -45,6 +45,7 @@ section{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 140px;
 }
 
 .required-job{
@@ -118,6 +119,11 @@ img.worth-header-image{
   background-color: #ffffff;
   padding: 10px 10px;
   margin-left: 20px;
+}
+
+.slick-next
+{
+    right: -45px;
 }
 
 .about-job__position{

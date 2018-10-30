@@ -1,0 +1,39 @@
+.header-top{
+  background-image: url(../img/blog/post/project@3x.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.post-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #13274e;
+  font-family: 'Roboto Slab', serif;
+}
+
+.post__date-and-author{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.post__copy-from{
+  font-family: 'Roboto Slab', serif;
+  color: steelblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.post__container{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.post__source{
+  font-style: italic;
+  font-size: 14px;
+  columns: #296a98;
+  font-family: 'Open Sans', sans-serif;
+}

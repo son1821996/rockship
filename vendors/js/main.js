@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
       slideToScroll: 1,
       isLoop: true,
       responsive: [{
-        viewSize: 480,
+        viewSize: 650,
         settings: {
-          slideShow: 1
+          slideShow: 2
         }
       }]
     });
@@ -85,4 +85,25 @@ for(x=0;x<allItems.length;x++){
   imagesLoaded( allItems[x], resizeInstance);
 }
 
+
+// window.onresize = function () {
+//   if (window.innerWidth > 480) {
+//     // add/remove class input contact
+//     $('.half-input').addClass('is-mobile');
+    
+//     // FOOTER
+//     $('.find-us').addClass('is-mobile');
+//     $('.contact').addClass('is-mobile');
+//   } else if (window.innerWidth <= 480) {
+//     // add/remove class input contact
+//     $('.half-input').removeClass('is-mobile');
+//     $('.half-input').addClass('is-desktop');
+    
+//     // FOOTER
+//     $('.find-us').remove('is-mobile');
+//     $('.find-us').addClass('is-desktop');
+//     $('.contact').removeClass('is-mobile');
+//     $('.contact').addClass('is-desktop');
+//   }
+// }
   

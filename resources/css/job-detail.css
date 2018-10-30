@@ -1,0 +1,177 @@
+.job-header{
+  padding-bottom: 5px;
+  border-bottom: solid 1px #979797;
+}
+
+.header-top{
+  background-image: url(../img/career/job1@3x.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.job__title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #13274e;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.job__salary{
+  color: #00adee;
+}
+
+.job-detail-title {
+  color: #13274e;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding-top: 15px
+}
+
+.job-detail-section p{
+  padding: 15px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #13274e;
+  font-size: 16px;
+}
+
+li{
+  padding: 3px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #13274e;
+  font-size: 16px;
+}
+
+.website{
+  color: #00adee;
+}
+
+.website:hover{
+  text-decoration: none;
+}
+
+.pleased{
+  font-style: italic;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #13274e;
+  font-size: 18px;
+}
+
+.thanks-for-reading{
+  color: #00adee;
+}
+.apply-form{
+  border: 1px solid #13274e;
+  margin-top: 20px;
+}
+
+.apply-now{
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #00adee;
+  font-size: 20px;
+  height: auto;
+  cursor:pointer;
+}
+
+#header-text-form{
+  width: 100%;
+  background-color: #1e496a;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+
+a.apply-link:hover{
+  text-decoration: none;
+  color: #333333
+}
+
+.apply-form{
+  padding: 50px 75px;
+}
+
+form{
+  padding-bottom: 50px;
+}
+
+input[type=text],
+input[type=email]{
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 18px;
+  color: #13274e;
+}
+
+::placeholder {
+  color: #13274e;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form-note{
+  font-size: 14px;
+  color: #13274e;
+  font-style: italic;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-upload img
+{
+    cursor: pointer;
+    
+}
+
+.form-blue-text{
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #00adee;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.send{
+  padding: 10px 50px;
+  margin-top: 20px;
+  background-color: #00adee;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all .3s;
+}
+
+a.send:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px){
+  input[type=text],
+  input[type=email]{
+    width: 80%;
+  }
+
+  #form{
+    padding: 0;
+  }
+}

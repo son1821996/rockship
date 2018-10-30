@@ -27,19 +27,30 @@ body{
 
 /* ================= HEADER NEWS ===================== */
 .header-news{
-  background-image: url('../img/blog/header-image.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 400px;
+  height: 100%;
+  background-color: #13274e;
+}
+
+img.img-header{
+  width: 70%;
+}
+
+.header-news img{
+  float: left;
+  max-width: 75%;
+  height: 100%;
+}
+
+.clear{
+  clear: both;
 }
 
 .square{
+  float: left;
   height: 100%;
-  width: 40%;
+  width: 30%;
   background-color: #13274e;
   opacity: 0.9;
-  float: right;
-  right: 0;
   position: relative;
 }
 
@@ -97,10 +108,16 @@ a.link-learn-more:after {
 } 
 
 
+
 /* ==================== POPULAR POST ================== */
 .popular-post{
   background-color: #d3dfe8;
   padding: 56px 0;
+}
+
+.slick-next
+{
+    right: -45px;
 }
 
 .post__title{
@@ -109,10 +126,11 @@ a.link-learn-more:after {
   margin-top: 15px;
   height: 16px;
   font-family: 'Roboto Slab', serif;
-  font-size: 18px;
+  font-size: 17px;
   color: #13274e;
-  text-transform: uppercase;
+  text-align: center;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .post__popular-item{
@@ -120,12 +138,14 @@ a.link-learn-more:after {
   border: solid 1px #d3dfe8;
   padding: 10px 10px;
   margin-left: 20px;
+  height: 520px;
+  position: relative;
 }
 
 .post__new-item{
   margin-left: 40px;
   border: solid 1px #d3dfe8;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 .post__new-item img{
@@ -133,12 +153,14 @@ a.link-learn-more:after {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+  height: 250px;
 }
 
 .post__short-view{
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 14px;
   color: #13274e;
+  height: 25%;
 }
 
 
@@ -147,6 +169,10 @@ p.post__request-consultation{
   text-align: center;
   margin-top: 10px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -5px;
 }
 
 .post__request-consultation a{
@@ -157,12 +183,16 @@ p.post__request-consultation{
 
 a.post__request-link{
   padding-bottom: 10px;
+  position: relative;
+  top: -3px
 }
 
 a.post__request-link:after{
   content: "\00bb";
   font-size: 180%; 
-  margin-left: 10px;
+  margin-left: 5px;
+  position: relative;
+  top: 1.5px;
 }
 
 a.post__request-link:hover{
